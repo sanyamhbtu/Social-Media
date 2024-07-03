@@ -1,0 +1,40 @@
+.display-container{
+    display: flex;
+    
+}
+.main-display{
+    width: 100%;
+}
+.sideBar{
+    min-height: 729px;
+}
+.post-card{
+    margin: 30px 50px;
+    min-width: 30rem;
+}
+.hashtag{
+    margin: 5px;
+}
+.large-span{
+    font-size: 50px; 
+    transform: translate(-64%, 34%) !important;
+}
+.reaction{
+    margin-top: 1rem;
+}
+
+  
+.pointer {
+    cursor: pointer;
+  }
+
+.create-post {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60vw;
+    
+}
+  
