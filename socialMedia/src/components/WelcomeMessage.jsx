@@ -1,6 +1,6 @@
 import React from "react";
 import { IoInformationCircle } from "react-icons/io5";
-function WelcomeMessage({onGetPostsClick}) {
+function WelcomeMessage() {
   return (
     <>
       <div className="card" aria-hidden="true">
@@ -28,14 +28,7 @@ function WelcomeMessage({onGetPostsClick}) {
           </span>
         </div>
         <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button
-            className="btn btn-info me-md-2"
-            style={{ marginBottom: "0.5rem" }}
-            type="button"
-            onClick={onGetPostsClick}
-          >
-            Get Posts From Server
-          </button>
+          
         </div>
       </div>
     </>
